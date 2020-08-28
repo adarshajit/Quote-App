@@ -12,7 +12,7 @@ function Home() {
                            
                         </div>
                         <div class="content">
-                            <p>projects created using the latest tools and services.</p>
+                           
                             
                         </div>
                     </div>
@@ -22,7 +22,7 @@ function Home() {
                         
                     </div>
                     <div class="content">
-                        <p>From promotional flyers to stage backdrops. From printed stuff to social media stuff. From birthday party invitations to corporate advertisements.</p>
+                       
                     </div>
                 </div>
             </div>
