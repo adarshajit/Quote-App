@@ -7,20 +7,17 @@ function Home() {
     {
         return(
             <div class="cont">
+
+                <a href="/read">
                     <div class="card">
-                        <div class="circle">
-                           
-                        </div>
                         <div class="content">
-                           
-                            
+                        
                         </div>
                     </div>
+               
+                </a>
 
                 <div class="card">
-                    <div class="circle">
-                        
-                    </div>
                     <div class="content">
                        
                     </div>
