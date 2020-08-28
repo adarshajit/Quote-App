@@ -11,6 +11,8 @@ class Quote extends Component{
             authorData : []
 
         }
+    
+    this.refreshPage = this.refreshPage.bind(this)
     }
 
     componentDidMount(){
@@ -22,13 +24,20 @@ class Quote extends Component{
         })
     }
 
+    refreshPage() {
+        window.location.reload(false)
+        
+    }
 
     render(){
         return(
             <div>
-                <h1>Quote part</h1>  
-                <h2>{this.state.quoteData}</h2>  
-                <h3>-{this.state.authorData}</h3>   
+                <div className="container">
+                    <h1>Quote part</h1>  
+                    <h2>{this.state.quoteData}</h2>  
+                    <h3>-{this.state.authorData}</h3>   
+                    <button onClick={this.refreshPage}>next</button>
+                </div>
             </div>
         )
     }
