@@ -32,12 +32,13 @@ class Quote extends Component{
     render(){
         return(
             <div>
-                <div className="container">
-                    <h1>Quote part</h1>  
+                <div className="container box"> 
                     <h2>{this.state.quoteData}</h2>  
-                    <h3>-{this.state.authorData}</h3>   
-                    <button onClick={this.refreshPage}>next</button>
+                    <h3>-{this.state.authorData}</h3>      
                 </div>
+               
+                <button onClick={this.refreshPage} className="btn">next</button>
+                
             </div>
         )
     }

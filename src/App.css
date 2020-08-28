@@ -1,0 +1,29 @@
+.App{
+    display: grid;
+    place-items: center;
+}
+
+.header{
+    padding-bottom: 150px;
+}
+
+.box{
+    width: 45rem;
+    height: 10rem;
+    background-color: rgb(162, 255, 139);
+    padding: 30px 50px 0 50px;
+    border-radius: 13px;
+}
+
+.btn{
+    transform: translate(22rem,2rem);
+    background-color: rgb(14, 167, 19);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+}
