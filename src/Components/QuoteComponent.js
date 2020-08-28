@@ -8,8 +8,7 @@ class Quote extends Component{
         super()
         this.state={
             quoteData : [],
-            authorData : []
-
+            authorData : [],
         }
     
     this.refreshPage = this.refreshPage.bind(this)
@@ -28,6 +27,7 @@ class Quote extends Component{
         window.location.reload(false)
         
     }
+
 
     render(){
         return(

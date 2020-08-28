@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Components/Header'
-import Quote from './Components/QuoteComponent'
+import Home from './Components/Home';
+import Reading from './Components/Reading'
 import './App.css';
 import { render } from '@testing-library/react';
 
@@ -9,8 +9,8 @@ function App(){
   {
     return (
       <div className="App">
-        <Header />
-        <Quote />
+      <Home />
+      <Reading />
       </div>
     );
   }
