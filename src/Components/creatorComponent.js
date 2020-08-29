@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './creator.css'
 
 class Creator extends Component{
     constructor(){
@@ -23,10 +24,10 @@ class Creator extends Component{
 
                     <div className="customise">
                         <textarea name="yourQuote" value={this.state.yourQuote} onChange={this.handleChange} placeholder="let your imagination fly...enter your quote!"></textarea>
-                    <button onClick={() => window.location.reload(false)}>Generate!</button>
                     </div>
                     <form>
-                        <input type="text" name="yourName" value={this.state.yourName} onChange={this.handleChange} />
+                        <input type="text" name="yourName" value={this.state.yourName} onChange={this.handleChange} /><br />
+                        <button onClick={() => window.location.reload(false)}>Generate!</button>
                     </form>
                     <h2>{this.state.yourQuote}</h2>
                     <h5>{this.state.yourName}</h5>
