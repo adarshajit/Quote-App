@@ -3,3 +3,42 @@
     place-items: center;
 }
 
+.creating > img{
+    width: 25%;
+
+    position: relative;
+}
+
+h2{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+    top: 250px;
+    z-index: 1;
+}
+
+h5{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+    top: 350px;
+    z-index: 1;
+}
+
+
+
+
