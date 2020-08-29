@@ -17,11 +17,13 @@ function Home() {
                
                 </a>
 
-                <div class="card">
-                    <div class="content">
-                       
+                <a href="/create">
+                    <div class="card">
+                        <div class="content">
+                        
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         )
     }   
