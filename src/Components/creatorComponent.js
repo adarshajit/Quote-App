@@ -29,7 +29,7 @@ class Creator extends Component{
                         <input type="text" name="yourName" value={this.state.yourName} onChange={this.handleChange} /><br />
                         <button onClick={() => window.location.reload(false)}>Generate!</button>
                     </form>
-                    <h2>{this.state.yourQuote}</h2>
+                    <h2 className="myQuote">{this.state.yourQuote}</h2>
                     <h5>{this.state.yourName}</h5>
                     <img src="https://picsum.photos/300" alt=""></img>
                 </div>
