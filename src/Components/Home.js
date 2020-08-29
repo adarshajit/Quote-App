@@ -4,29 +4,25 @@ import { render } from '@testing-library/react';
 
 function Home() {
     render()
-    {
         return(
-            <div class="cont">
-
+            <div className="cont">
                 <a href="/read">
-                    <div class="card">
-                        <div class="content">
+                    <div className="card">
+                        <div className="content">
                         
                         </div>
                     </div>
-               
                 </a>
 
                 <a href="/create">
-                    <div class="card">
-                        <div class="content">
+                    <div className="card">
+                        <div className="content">
                         
                         </div>
                     </div>
                 </a>
             </div>
-        )
-    }   
+        ) 
 }
 
 export default Home;

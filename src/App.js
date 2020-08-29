@@ -6,9 +6,9 @@ import './App.css';
 import { render } from '@testing-library/react';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
-function App(){
+function App()
+{
   render()
-  {
     return (
       <div className="App">
       <BrowserRouter>
@@ -21,7 +21,6 @@ function App(){
       </BrowserRouter>
       </div>
     );
-  }
 }
 
 export default App
