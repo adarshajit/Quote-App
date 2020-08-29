@@ -1,17 +1,37 @@
 import React, { Component } from 'react'
 
 class Creator extends Component{
+    constructor(){
+        super()
+        this.state={
+            yourQuote :"",
+            yourName :""
+        }
+    }
+
+    handleChange = (event) => {
+        const { target: { name, value } } = event
+        this.setState({ [name]: value })
+      }
+
+
     render(){
         return(
-
             <div>
-               <h1>Creator Section</h1>
-               <form>
-                   <input type="text-area" width="100px" height="200px"></input>
-               </form>
-               <img src="https://picsum.photos/200/300" alt=""></img>
-              
-               <button onClick={() => window.location.reload(false)}>Generate!</button>
+                <div className="creating">
+                    <h1>Creator Section</h1>
+
+                    <div className="customise">
+                        <textarea name="yourQuote" value={this.state.yourQuote} onChange={this.handleChange} placeholder="let your imagination fly...enter your quote!"></textarea>
+                    <button onClick={() => window.location.reload(false)}>Generate!</button>
+                    </div>
+                    <form>
+                        <input type="text" name="yourName" value={this.state.yourName} onChange={this.handleChange} />
+                    </form>
+                    <h2>{this.state.yourQuote}</h2>
+                    <h5>{this.state.yourName}</h5>
+                    <img src="https://picsum.photos/300" alt=""></img>
+                </div>
             </div>
         )
     }

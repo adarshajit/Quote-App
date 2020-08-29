@@ -44,10 +44,10 @@
 }
 
 .box{
-    width: 45rem;
-    height: 10rem;
+    max-width: 45rem;
+    max-height: 10rem;
     background-color: rgb(162, 255, 139);
-    padding: 30px 50px 0 50px;
+    padding: 30px 50px 50px 50px;
     border-radius: 13px;
 }
 
