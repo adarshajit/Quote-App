@@ -17,7 +17,6 @@
     background-color: green;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -27,7 +26,7 @@
 
 @media only screen and (max-width: 600px) {
     .btn{
-      transform: translate(11.5rem, 12rem);
+      transform: translate(19rem, 12rem);
     }
   }
 

@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import { Button } from 'reactstrap';
 
 
 
@@ -37,7 +38,8 @@ class Quote extends Component{
                     <h3>-{this.state.authorData}</h3>      
                 </div>
                
-                <button onClick={this.refreshPage} className="btn">next</button>
+            
+                <Button color="success" onClick={this.refreshPage} >Next</Button>
                 
             </div>
         )
