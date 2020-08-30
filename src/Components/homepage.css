@@ -36,6 +36,7 @@
 }
 
 .card .create{
+    transform: translateY(2.1rem);
     width: 120px;
 }
 

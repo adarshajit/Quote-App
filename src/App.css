@@ -1,24 +1,20 @@
-
-.Read{
-    display: grid;
-    place-items: center;
-}
-
 .header{
     padding-bottom: 150px;
 }
 
 .box{
+
     max-width: 45rem;
-    max-height: 10rem;
+    max-height: 45rem;
     background-color: rgb(162, 255, 139);
     padding: 30px 50px 50px 50px;
     border-radius: 13px;
+    transform: translate(0,10rem)
 }
 
 .btn{
-    transform: translate(22rem,2rem);
-    background-color: rgb(14, 167, 19);
+    transform: translate(77rem,14rem);
+    background-color: green;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -28,3 +24,13 @@
     font-size: 16px;
     border-radius: 7px;
 }
+
+@media only screen and (max-width: 600px) {
+    .btn{
+      transform: translate(11.5rem, 12rem);
+    }
+  }
+
+
+
+
