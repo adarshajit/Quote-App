@@ -32,7 +32,7 @@ class Quote extends Component{
 
     render(){
         return(
-            <div>
+            <div className="quotePage">
                 <div className="container box"> 
                     <h2>{this.state.quoteData}</h2>  
                     <h3>-{this.state.authorData}</h3>      

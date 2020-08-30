@@ -24,9 +24,19 @@
     border-radius: 7px;
 }
 
-@media only screen and (max-width: 600px) {
+.quotePage{
+    background-image: url('./Assets/bg2.jpg');
+    background-size: cover;
+    max-width: 100%;
+    height: 91.8vh;
+}
+
+@media only screen and (max-width: 768px) {
     .btn{
       transform: translate(19rem, 12rem);
+    }
+    .quotePage{
+        height: 90vh;
     }
   }
 
