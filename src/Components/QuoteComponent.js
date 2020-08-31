@@ -39,7 +39,7 @@ class Quote extends Component{
                 </div>
                
             
-                <Button color="success" onClick={this.refreshPage} >Next</Button>
+                <Button color="warning" onClick={this.refreshPage} >Next</Button>
                 
             </div>
         )
