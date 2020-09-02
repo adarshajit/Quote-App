@@ -34,8 +34,8 @@ class Quote extends Component{
         return(
             <div className="quotePage">
                 <div className="container box"> 
-                    <h2>{this.state.quoteData}</h2>  
-                    <h3>-{this.state.authorData}</h3>      
+                    <h2 className="quoteData">{this.state.quoteData}</h2>  
+                    <h3 className="authorData">-{this.state.authorData}</h3>      
                 </div>
                
             

@@ -37,6 +37,12 @@
     .quotePage{
         height: 100vh;
     }
+    .quoteData{
+        font-size: 21px;
+    }
+    .authorData{
+        font-size: 18px;
+    }
   }
 
   @media (min-width: 768px) and (max-width: 1024px){ 
