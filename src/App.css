@@ -24,7 +24,7 @@
 }
 
 .quotePage{
-    background-image: url('./Assets/bg2.jpg');
+    background-image: url('../src/Assets/bg2.jpg');
     background-size: cover;
     max-width: 100%;
     height: 91.8vh;

@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from '@testing-library/react';
 import create from '../Assets/create.svg'
 import read from '../Assets/read.svg'
-import './homepage.css'
+import '../Styles/homepage.css'
 
 
 function Home() {

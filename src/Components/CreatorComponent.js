@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import './creator.css'
 import {Button} from 'reactstrap'
 import { InputGroup, InputGroupText, InputGroupAddon, Input } from 'reactstrap';
 import Header from './Header'
+import '../Styles/creator.css'
 
 
 
