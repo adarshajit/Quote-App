@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Quote-App/static/css/main.fe1d9dbe.chunk.css",
-    "main.js": "/Quote-App/static/js/main.bcbca390.chunk.js",
-    "main.js.map": "/Quote-App/static/js/main.bcbca390.chunk.js.map",
+    "main.js": "/Quote-App/static/js/main.5606dab8.chunk.js",
+    "main.js.map": "/Quote-App/static/js/main.5606dab8.chunk.js.map",
     "runtime-main.js": "/Quote-App/static/js/runtime-main.a53a5820.js",
     "runtime-main.js.map": "/Quote-App/static/js/runtime-main.a53a5820.js.map",
     "static/css/2.11829350.chunk.css": "/Quote-App/static/css/2.11829350.chunk.css",
     "static/js/2.587740de.chunk.js": "/Quote-App/static/js/2.587740de.chunk.js",
     "static/js/2.587740de.chunk.js.map": "/Quote-App/static/js/2.587740de.chunk.js.map",
     "index.html": "/Quote-App/index.html",
-    "precache-manifest.5f93e841e66db0f54f88f98b1d348a43.js": "/Quote-App/precache-manifest.5f93e841e66db0f54f88f98b1d348a43.js",
+    "precache-manifest.d273e438d59d4d9b6c2ebb89a86ebf18.js": "/Quote-App/precache-manifest.d273e438d59d4d9b6c2ebb89a86ebf18.js",
     "service-worker.js": "/Quote-App/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Quote-App/static/css/2.11829350.chunk.css.map",
     "static/css/main.fe1d9dbe.chunk.css.map": "/Quote-App/static/css/main.fe1d9dbe.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.587740de.chunk.js",
     "static/css/main.fe1d9dbe.chunk.css",
-    "static/js/main.bcbca390.chunk.js"
+    "static/js/main.5606dab8.chunk.js"
   ]
 }
