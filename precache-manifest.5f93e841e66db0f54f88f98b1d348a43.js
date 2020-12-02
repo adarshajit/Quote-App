@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0abf6a6f57b247661435300e7850ccc",
+    "revision": "b694c5d09e5af0216ce6913c3bea8e11",
     "url": "/Quote-App/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Quote-App/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "fb808b7236b16ea8af1a",
+    "revision": "fd5bc774ac5c219fc1c2",
     "url": "/Quote-App/static/css/main.fe1d9dbe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Quote-App/static/js/2.587740de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb808b7236b16ea8af1a",
-    "url": "/Quote-App/static/js/main.6d0a1c1c.chunk.js"
+    "revision": "fd5bc774ac5c219fc1c2",
+    "url": "/Quote-App/static/js/main.bcbca390.chunk.js"
   },
   {
     "revision": "5d243066ebb5fdacd475",
