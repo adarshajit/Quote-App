@@ -6,6 +6,7 @@ import "../Styles/creator.css";
 
 class Creator extends Component {
   constructor() {
+    super();
     this.state = {
       yourQuote: "",
       yourName: "",

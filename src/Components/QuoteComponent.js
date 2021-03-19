@@ -3,6 +3,7 @@ import { Button } from "reactstrap";
 
 class Quote extends Component {
   constructor() {
+    super();
     this.state = {
       quoteData: [],
       authorData: [],
