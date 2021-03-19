@@ -1,57 +1,43 @@
-import React,{Component} from 'react';
-import { Button } from 'reactstrap';
+import React, { Component } from "react";
+import { Button } from "reactstrap";
 
+class Quote extends Component {
+  constructor() {
+    this.state = {
+      quoteData: [],
+      authorData: [],
+    };
 
+    this.refreshPage = this.refreshPage.bind(this);
+  }
 
-class Quote extends Component{
+  componentDidMount() {
+    fetch("https://api.quotable.io/random")
+      .then((response) => response.json())
+      .then((data) => {
+        this.setState({ quoteData: data.content });
+        this.setState({ authorData: data.author });
+      });
+  }
 
-    constructor(){
-        super()
-        this.state={
-            quoteData : [],
-            authorData : [],
-        }
-    
-    this.refreshPage = this.refreshPage.bind(this)
-    }
+  refreshPage() {
+    window.location.reload(false);
+  }
 
-    componentDidMount(){
-        fetch('https://api.quotable.io/random')
-        .then(response => response.json())
-        .then(data => {
-          this.setState({quoteData : data.content})
-          this.setState({authorData : data.author})
-        })
-    }
+  render() {
+    return (
+      <div className="quotePage">
+        <div className="container box">
+          <h2 className="quoteData">{this.state.quoteData}</h2>
+          <h3 className="authorData">-{this.state.authorData}</h3>
+        </div>
 
-    refreshPage() {
-        window.location.reload(false)
-        
-    }
-
-
-    render(){
-        return(
-            <div className="quotePage">
-                <div className="container box"> 
-                    <h2 className="quoteData">{this.state.quoteData}</h2>  
-                    <h3 className="authorData">-{this.state.authorData}</h3>      
-                </div>
-               
-            
-                <Button color="warning" onClick={this.refreshPage} >Next</Button>
-                
-            </div>
-        )
-    }
-
-
+        <Button color="warning" onClick={this.refreshPage}>
+          Next
+        </Button>
+      </div>
+    );
+  }
 }
 
-
-export default Quote
-
-
-
-
-
+export default Quote;

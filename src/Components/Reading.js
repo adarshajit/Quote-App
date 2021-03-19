@@ -1,18 +1,14 @@
-import React from 'react'
-import Header from './Header'
-import Quote from './QuoteComponent'
-import { render } from '@testing-library/react'
+import React from "react";
+import Header from "./Header";
+import Quote from "./QuoteComponent";
 
-function Reading(){
-
-
-    render()
-        return(
-        <div className="Read">
-            <Header />
-            <Quote />
-        </div>
-        )
+function Reading() {
+  return (
+    <div className="Read">
+      <Header />
+      <Quote />
+    </div>
+  );
 }
 
 export default Reading;
