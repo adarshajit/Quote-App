@@ -15,7 +15,6 @@ function App() {
           <Route path="/" component={Home} />
           <Route exact path="/read" component={Reading} />
           <Route exact path="/create" component={Creator} />
-          <Redirect to="/home" />
         </Switch>
       </BrowserRouter>
     </div>
