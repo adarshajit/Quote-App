@@ -8,7 +8,7 @@ const quotePage = () => {
       <Navbar />
       <Wrapper>
         <Container>
-          <H1>Create quote section is here </H1>
+          <H1>Under Construction</H1>
         </Container>
       </Wrapper>
     </>

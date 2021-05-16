@@ -1,7 +1,7 @@
 import React from "react";
 import { CardContainer, CardWrapper, Card, Img } from "./homeElements";
 import { H1, Container, Wrapper, P } from "../globalStyles";
-
+import Footer from "../Footer/Footer";
 import Read from "../../Assets/read.svg";
 import Create from "../../Assets/create.svg";
 import { Link } from "react-router-dom";
@@ -12,7 +12,7 @@ const HomePage = () => {
       <Wrapper>
         <Container>
           <H1>Welcome to Quotify!</H1>
-          <P>Imagination is put into words. be creative.</P>
+          <P>Imagination is put into words. Be creative ❤️✨</P>
           <CardContainer>
             <CardWrapper>
               <Link to="/read">
@@ -29,6 +29,7 @@ const HomePage = () => {
           </CardContainer>
         </Container>
       </Wrapper>
+      <Footer />
     </>
   );
 };

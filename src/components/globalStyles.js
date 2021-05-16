@@ -21,7 +21,7 @@ export const H1 = styled.h1`
   font-family: "Goblin One", cursive;
 
   @media screen and (max-width: 767px) {
-    font-size: 24px;
+    font-size: 40px;
   }
 
   @media screen and (max-width: 400px) {
@@ -37,7 +37,7 @@ export const P = styled.p`
   margin-top: 2px;
 
   @media screen and (max-width: 767px) {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   @media screen and (max-width: 400px) {

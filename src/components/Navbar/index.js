@@ -1,9 +1,13 @@
 import React from "react";
-
+import arrow from "../../Assets/arrow.svg";
+import { Img } from "./navbarElements";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <h1>Navbar_____________</h1>
+      <Link to="/">
+        <Img src={arrow} />
+      </Link>
     </>
   );
 };
