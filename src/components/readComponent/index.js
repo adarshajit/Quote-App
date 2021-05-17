@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar";
 import { Container, Wrapper } from "../globalStyles";
-import { QuoteCard, QuoteText, P1, P2 } from "./readElements";
+import { QuoteCard, QuoteText, P1, P2, Button } from "./readElements";
 
 const Read = () => {
   const [quoteInfo, setQuoteInfo] = useState({
@@ -36,6 +36,13 @@ const Read = () => {
               <P2>{quoteInfo.authorData}</P2>
             </QuoteText>
           </QuoteCard>
+          <Button
+            onClick={() => {
+              window.location.reload();
+            }}
+          >
+            New Quote 🚀
+          </Button>
         </Container>
       </Wrapper>
     </>

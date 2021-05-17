@@ -52,3 +52,22 @@ export const P2 = styled.p`
     text-align: center;
   }
 `;
+
+export const Button = styled.button`
+  margin: 40px 0 0 0;
+  width: 150px;
+  height: 60px;
+  text-decoration: none;
+  border-style: none;
+  background-color: #ffc93c;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 50px;
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  }
+`;

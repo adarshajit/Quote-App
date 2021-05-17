@@ -24,6 +24,10 @@ export const H1 = styled.h1`
     font-size: 40px;
   }
 
+  @media screen and (max-width: 450px) {
+    font-size: 27px;
+  }
+
   @media screen and (max-width: 400px) {
     font-size: 20px;
   }
@@ -38,6 +42,10 @@ export const P = styled.p`
 
   @media screen and (max-width: 767px) {
     font-size: 24px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 18px;
   }
 
   @media screen and (max-width: 400px) {
