@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar";
 import { Container, Wrapper } from "../globalStyles";
 import { QuoteCard, QuoteText, P1, P2, Button } from "./readElements";
+import { TwitterShareButton, TwitterIcon } from "react-share";
 
 const Read = () => {
   const [quoteInfo, setQuoteInfo] = useState({
@@ -25,6 +26,8 @@ const Read = () => {
       });
   }, []);
 
+  let url = "quotify-app.netlify.app/";
+  const hashtags = ["motivation", "inspired"];
   return (
     <>
       <Navbar />
@@ -43,6 +46,14 @@ const Read = () => {
           >
             New Quote 🚀
           </Button>
+          <TwitterShareButton
+            title={`${quoteInfo.quoteData} \n -- ✏️ ${quoteInfo.authorData}`}
+            url={`\n 📚 Shared from : ${url}`}
+            hashtags={hashtags}
+            appId={20962375}
+          >
+            <TwitterIcon size={40} round={true} style={{ marginTop: "20px" }} />
+          </TwitterShareButton>
         </Container>
       </Wrapper>
     </>
