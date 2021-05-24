@@ -64,6 +64,7 @@ export const Button = styled.button`
   font-size: 15px;
   font-weight: 600;
   border-radius: 50px;
+  cursor: pointer;
 
   &:hover {
     transform: scale(1.02);
