@@ -6,11 +6,9 @@
   </a>
 </p>
 
-<hr/>
-
 ## 🚀 Demo
 
-<a href="quotify-app.netlify.app/" target="blank">
+<a href="https://quotify-app.netlify.app/" target="blank">
 Click here 
 </a>
 
@@ -54,7 +52,7 @@ npm start
 - [React](https://reactjs.org/)
 - [Styled Components](https://jquery.com/) for styling
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start): for routing
-- [react-share] (https://www.npmjs.com/package/react-share): social icons
+- [react-share](https://www.npmjs.com/package/react-share): social icons
 - [Netlify](https://www.netlify.com/): for hosting
 
 ## 🌈 What's next
