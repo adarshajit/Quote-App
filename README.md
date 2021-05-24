@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://quotify-app.netlify.app/">
-    <img alt="books" src="./public/favicon-32x32.png" width="100" height="100"/>
+    <img alt="books" src="./public/android-chrome-192x192.png" width="100" height="100"/>
   </a>
 </p>
 
